@@ -1,0 +1,7 @@
+##League Assistant
+
+Add your own API Key from Riot Games Developer portal to use the app.
+
+Add into "api_key.json"
+
+Built with Google Assistant, Firebase, Google Cloud Functions, Node.js
