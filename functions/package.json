@@ -1,0 +1,20 @@
+{
+  "name": "league_assistant",
+  "description": "League of Legends helper! In game or out of game, get crucial stats",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.7.0",
+    "firebase-admin": "~5.8.1",
+    "firebase-functions": "^0.8.1",
+    "node-fetch": "^1.7.3",
+    "request": "^2.83.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "private": true
+}
